@@ -32,10 +32,10 @@ Peligrosidad:
 * Saber cuál es la cosa más peligrosa que tiene un camión.
 * Saber si un camión puede circular por una ruta, dado el nivel de peligrosidad máximo de la ruta. Por ejemplo, queremos poder preguntar si un camión puede circular en una ruta cuyo límite de peligrosidad es 10. Para eso tiene que pasar que ningún elemento del camión supera los 10 puntos de peligrosidad.
 
-## Parte 4: Más cosas para transportar
+## Parte 4: Motoneta
+La empresa adquirió un segundo transporte: una motoneta. La motoneta puede cargar hasta 100 kilogramos y sólo puede llevar cosas que tengan hasta 5 puntos de peligrosidad. Asegurarse de que el depósito la pueda cargar al llegar.
+
+## Parte 5: Más cosas para transportar
 * Contenedor portuario: Un contenedor puede tener otras cosas adentro. El peso es 100 + la suma de todas las cosas que esté adentro. Es tan peligroso como el objeto más peligroso que contiene. Si está vacío es 0.
 * Embalaje de seguridad: Es una cobertura que envuelve a cualquier otra cosa. El
 peso es el peso de la cosa que tenga adentro. El nivel de peligrosidad es la mitad del nivel de peligrosidad de lo que envuelve.
-
-## Parte 5: Motoneta
-La empresa adquirió un segundo transporte: una motoneta. La motoneta puede cargar hasta 100 kilogramos y sólo puede llevar cosas que tengan hasta 5 puntos de peligrosidad. Asegurarse de que el depósito la pueda cargar al llegar.
