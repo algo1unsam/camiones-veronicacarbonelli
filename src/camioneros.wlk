@@ -1,3 +1,9 @@
+// TODO no compila!
+// TODO testear!!
+// TODO si no te complica mucho, sería ideal separar un poco en otro archivo, por ejemplo separar el deposito, o las cargas
+
+// TODO creo que le nombre mas correcto es camion (y no camiones)
+// ya que este objeto reprsenta el comportamiento de UN camion
 object camiones{
 	var aTransportar=[]
 	var property cargaMaxima=1000
@@ -24,6 +30,9 @@ object camiones{
 	method cargaDisponible(){
 		return cargaMaxima-(self.sumaDeLosPesos())
 	}
+	
+	// TODO cual es la diferencia entre este y carcarCosas?? los dos hacen el add en la coleccion
+	// se ven muy parecidos
 	method puedeAceptar(cosa){
 		if(self.cargaDisponible(cosa)){
 		aTransportar.add(cosa)
@@ -41,6 +50,8 @@ object deposito{
 	var cosasGuardadas =[]
 	
 	
+	// TODO la idea era que se banque guardar de a muchas cosas
+	// es decir, que se banque una colección
 	method guardarCosas(cosa){
 	cosasGuardadas.add(cosa)
 	}
